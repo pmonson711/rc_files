@@ -1,0 +1,128 @@
+mv ansible/host_vars/10.37.129.61.yml ansible/host_vars/10.37.132.61.yml
+mv ansible/host_vars/10.37.129.60.yml ansible/host_vars/10.37.132.62.yml
+cd src/Echo/WWW.ECHO.COM/
+svn info
+svn info ../Echo.Design/
+svn up ../Echo.Design/
+svn info ~/src/Echo/Echo.BSS.ShipmentTracking/
+vagrant destroy
+vagrant up db --provider=parallels
+ls
+ls -al ansible/roles/python/files/bash/
+vagrant up db --provider=parallels
+vagrant destroy
+vagrant up db --provider=parallels
+vagrant provision db
+find . -type f -name "*.jinja2"
+vagrant provision db
+vagrant provision db
+vagrant provision db
+vagrant destroyu
+vagrant destroy
+vagrant destory
+vagrant destroy
+vagrant up db --provider=parallels
+clear
+exit
+ansible-vault create ansible/roles/mysql/vars/passwords.yml
+cd ansible/roles/cluster/
+ls
+mkdir files
+cd files/
+cd ..
+ls -al
+cd ..
+ls -al mysql/
+cd cluster/
+dd if=/dev/urandom bs=128 count=1
+ls
+cd files/
+ls
+dd if=/dev/urandom of=authkey bs=128 count=1
+man prlctl
+prl_perf_ctl
+prl_perf_ctl --all
+vagrant up --provider=parallels
+irb
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant up --provider=parallels
+vagrant destroy
+vagrant destroy
+vagrant up
+vagrant destroy
+vagrant destroy --help
+vagrant destroy -f
+vagrant destroy -f
+vagrant destroy -f
+ls
+ls -al
+cd .vagrant/
+ls
+cd provisioners/
+ls -al
+cd ..
+cd machines/
+ls -al
+cd ..
+cd ..
+ls -al .vagrant/machines/db01/
+ls -al .vagrant/machines/db01/parallels/id
+ls -al .vagrant/machines/db02/parallels/id
+ls -al .vagrant/machines/db02/virtualbox/
+rm .vagrant/machines/db01/parallels/*
+vagrant destroy
+vagrant ssh sb01
+vagrant ssh db01
+exit
+man rsync
+man mount
+exit
+which erl
+ls -al `which erl`
+exit
+mix docs
+cd ~/src/deterministic/
+mix docs
+open docs/index.html 
+edit
+npm install qunit
+r
+clear
+npm search json-schema
+congruence                         Validate the structure of Javascript objects using semantic… =tjwebb              2014-08-24 1.6.4       object validation comparison congruence similarity diff underscore lodash json-schema                                            
+npm info jsschema
+npm info jschema
+npm install --save-dev jschema
+npm install --save-dev congruence
+npm install --save-dev 3c
+npm install --save-dev datamocker
+vagrant destroy -f; time vagrant up db01 db02 --provider=parallels
+vagrant ssh db01
+vagrant destroy -f; time vagrant up db01 db02 --provider=parallels
+vagrant destroy -f; time vagrant up db01 db02 --provider=parallels
+mkdir ~/.emacs.d/snippets
+exit
+ls -al 
+ls -alR
+cd ..
+cd ..
+ls -alR
+cd nagios/
+ls templates/
+cd ..
+cd ..
+cd ..
+ls disk/
+ls -al
+ls -al disk/
+ack --ignore-dir=.vagrant mysql_root_pass
+ack --ignore-dir=.vagrant db01
+ack --ignore-dir=.vagrant db01
+curl -O https://raw.github.com/jmesnil/stomp-websocket/master/dist/stomp.js
+ls
+exit
