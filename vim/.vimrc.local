@@ -1,3 +1,4 @@
+set t_Co=256
 let g:spf13_keep_trailing_whitespace = 1
 let g:bufferline_echo = 0
 noremap Q <Nop>

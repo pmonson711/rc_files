@@ -1,3 +1,4 @@
+export TERM=screen-256color-bce
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -55,7 +56,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin"
+#export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -72,12 +73,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/l
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 set -o vi
-export PATH=/usr/local/Cellar/ruby/2.1.2_3/bin:/Users/pmonson/src/OpenIDE.binaries/:$PATH
-alias memacs="/usr/local/Cellar/emacs/24.3/Emacs.app/Contents/MacOS/Emacs"
-alias omniserver="mono ~/src/OmniSharpServer/OmniSharp/bin/Debug/OmniSharp.exe"
-alias nuget="mono ~/src/nuget/nuget.exe"
 export EDITOR="vim"
-unalias run-help
+#unalias run-help
 autoload run-help
 HELPDIR=/usr/local/share/zsh/helpfiles
 SVN=svn://svn.echo.com:4345
